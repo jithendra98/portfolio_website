@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Jithendra.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="about">
+        <div class="hero-content">
+            <h1 class="fade-in">Hi, I'm <span class="highlight">Jithendra</span></h1>
+            <p class="fade-in delay-1">Data Analyst & Python Developer turning complex data into actionable insights.</p>
+            <a href="#projects" class="btn fade-in delay-2">View My Work</a>
+        </div>
+    </header>
+
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            
+            <!-- Project 1 -->
+            <div class="project-card reveal">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="project-info">
+                    <h3>E-Commerce Intelligence Platform</h3>
+                    <p class="tech-stack">Python | NLTK | Seaborn | ARIMA | Prophet | Streamlit</p>
+                    <ul class="project-bullets">
+                        <li>Built a sentiment analysis model (TF-IDF + Logistic Regression) on 200K+ reviews, achieving 88% F1-score.</li>
+                        <li>Developed time series forecasting models (ARIMA, Prophet) to predict demand, reducing inventory overstock by 22%.</li>
+                        <li>Automated the complete pipeline reducing reporting time by 90%.</li>
+                    </ul>
+                    <a href="https://github.com/yourusername/ecommerce_intelligence" class="btn-outline" target="_blank">View Code</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card reveal delay-1">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="project-info">
+                    <h3>Retail Sales Performance Analytics</h3>
+                    <p class="tech-stack">SQL | Python | Pandas | Power BI | DAX</p>
+                    <ul class="project-bullets">
+                        <li>Extracted and analyzed 1M+ transactional records using advanced SQL (joins, CTEs, window functions).</li>
+                        <li>Performed EDA and data wrangling to uncover seasonal trends, top products, and customer segments.</li>
+                        <li>Built an interactive Power BI dashboard with KPI tracking and DAX-based metrics.</li>
+                        <li>Conducted cohort analysis to evaluate customer retention, identifying a 34% drop in Month 2.</li>
+                    </ul>
+                    <a href="https://github.com/yourusername/retail_sales_analytics" class="btn-outline" target="_blank">View Code</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section reveal">
+        <h2>Let's Connect</h2>
+        <p>I'm currently open for new opportunities.</p>
+        <div class="social-links">
+            <a href="#" class="social-btn">LinkedIn</a>
+            <a href="#" class="social-btn">GitHub</a>
+            <a href="mailto:email@example.com" class="social-btn">Email Me</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Jithendra. Built with modern web tech.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
